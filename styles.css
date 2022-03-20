@@ -17,17 +17,17 @@ body {
 
 header {
   background-color: #6003C3;
-  padding: 20%;
+  padding: 20% 10%;
 }
 
 header h1 {
   color: white;
   text-align: center;
-  font-size: 3rem;
+  font-size: 4.5rem;
 }
 
 #message_section {
-  padding: 20%;
+  padding: 12%;
 }
 
 #message_section p {
@@ -41,37 +41,42 @@ header h1 {
 }
 
 #box-1 {
+  
   width: 200px;
-  height: 200px;
+  height: 180px;
   background-color:#FCFF00;
   border: 20px solid #6003C3;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
+  box-shadow: 5px 5px 5px grey;
 }
+
 
 
 #box-2 {
   width: 200px;
-  height: 200px;
+  height: 180px;
   background-color:#57FFC9;
   border: 20px solid #6003C3;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
+  box-shadow: 5px 5px 5px grey;
 }
 
 #box-3 {
   width: 200px;
-  height: 200px;
+  height: 180px;
   background-color:#A5FF01;
   border: 20px solid #6003C3;
   border-radius: 10px;
   margin: 0 auto;
   margin-bottom: 20px;
   display: flex;
+  box-shadow: 5px 5px 5px grey;
 }
 
 .box {
@@ -80,4 +85,15 @@ header h1 {
   color:#6003C3;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 780px) {
+  .boxes {
+    display: flex;
+    padding: 2%;
+  }
+  #message_section {
+    padding: 5%;
+  }
+  
 }
