@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --primary-color: #6003C3;
   --white: #FFFFFF;
@@ -8,4 +13,71 @@
 
 body {
   font-family: 'Bebas Neue', Impact, sans-serif;
+}
+
+header {
+  background-color: #6003C3;
+  padding: 20%;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+}
+
+#message_section {
+  padding: 20%;
+}
+
+#message_section p {
+  color:#6003C3;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.boxes {
+  padding: 10%;
+}
+
+#box-1 {
+  width: 200px;
+  height: 200px;
+  background-color:#FCFF00;
+  border: 20px solid #6003C3;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+
+#box-2 {
+  width: 200px;
+  height: 200px;
+  background-color:#57FFC9;
+  border: 20px solid #6003C3;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+#box-3 {
+  width: 200px;
+  height: 200px;
+  background-color:#A5FF01;
+  border: 20px solid #6003C3;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.box {
+  text-align: center;
+  font-size: 4rem;
+  color:#6003C3;
+  justify-content: center;
+  align-items: center;
 }
