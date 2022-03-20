@@ -87,7 +87,10 @@ header h1 {
   align-items: center;
 }
 
-@media (min-width: 780px) {
+@media (min-width: 765px) {
+  header {
+    padding: 12% 7%;
+  }
   .boxes {
     display: flex;
     padding: 2%;
@@ -95,5 +98,16 @@ header h1 {
   #message_section {
     padding: 5%;
   }
-  
+}
+
+@media(min-width: 1024px) {
+    header{
+      padding: 10% 5%;
+    }
+}
+
+@media (min-width: 1366px){
+  header {
+    padding: 5% 3%;
+  }
 }
