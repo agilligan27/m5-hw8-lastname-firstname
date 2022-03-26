@@ -33,7 +33,7 @@ header h1 {
 #message_section p {
   color:#6003C3;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 .boxes {
@@ -87,6 +87,12 @@ header h1 {
   align-items: center;
 }
 
+#wins, #losses {
+  color:#6003C3;
+  font-size: 2rem;
+  text-align: center;
+}
+
 @media (min-width: 765px) {
   header {
     padding: 12% 7%;
@@ -97,6 +103,14 @@ header h1 {
   }
   #message_section {
     padding: 5%;
+  }
+  .score {
+    display: flex;
+    justify-content: center;
+  }
+
+  #wins {
+    padding-right: 20px;
   }
 }
 
