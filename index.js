@@ -19,30 +19,18 @@ var displayMessage = document.getElementById('message');
 // target all .box elements and attach a click event listener to each one using a loop
 // within each click event...
 // determine which box was clicked with 'this.textContent' or event.target.textContent
-
-var boxOne = document.getElementById("box-1");
-var boxTwo = document.getElementById("box-2");
-var boxThree = document.getElementById("box-3");
-
-var allBoxes = [boxOne, boxTwo, boxThree];
-
-
-for (let i = 0; i < allBoxes.length; i++){
-    allBoxes.addEventListener("click", boxNumber(e))
-}
-
-function boxNumber (e) {
-    var clickedBox = this.textContent;
-    return clickedBox;
-    
-}
-
-
-
-
-
-
 // convert that value to a Number and store it to a variable
+
+
+var boxes = document.querySelectorAll('.box');
+
+for (var i = 0; i < boxes.length; i++){
+    boxes[i].addEventListener('click', function(e){
+        var clickedBoxText = e.target.textContent;
+        var boxNumber = parseInt(clickedBoxText);
+    })
+}
+
 
 
 
