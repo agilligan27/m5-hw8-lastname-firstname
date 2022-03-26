@@ -82,3 +82,5 @@ https://www.educba.com/css-drop-shadow/
 https://www.codeinwp.com/snippets/add-event-listener-to-multiple-elements-with-javascript/ 
 https://www.nickang.com/2018-03-06-add-event-listener-for-loop-problem-in-javascript/
 https://www.w3docs.com/snippets/javascript/how-to-convert-string-to-number-in-javascript.html
+https://www.w3schools.com/JS/js_random.asp
+https://www.w3schools.com/js/js_datatypes.asp
