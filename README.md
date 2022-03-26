@@ -84,3 +84,4 @@ https://www.nickang.com/2018-03-06-add-event-listener-for-loop-problem-in-javasc
 https://www.w3docs.com/snippets/javascript/how-to-convert-string-to-number-in-javascript.html
 https://www.w3schools.com/JS/js_random.asp
 https://www.w3schools.com/js/js_datatypes.asp
+https://herewecode.io/blog/get-random-element-array-javascript/
