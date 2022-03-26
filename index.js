@@ -33,6 +33,8 @@ var displayMessage = document.getElementById('message');
 // if the numbers match, increment wins and display the win count in div#wins
 
 // if the numbers don't match, increment losses and display the loss count in div#losses
+// if the numbers don't match, change the div#message element's text to a random losing message from the array above
+
 
 var boxes = document.querySelectorAll('.box');
 
@@ -45,7 +47,7 @@ boxes.forEach(function(box){
         var clickedBoxText = e.target.textContent;
         var boxNumber = parseInt(clickedBoxText);
         if (boxNumber === randomNumber){
-                displayMessage.innerHTML = 'You win';
+                displayMessage.innerHTML = 'You win!';
                 winCount++;
                 winSection.innerHTML = 'Wins: ' + winCount;
             } else {
@@ -56,6 +58,3 @@ boxes.forEach(function(box){
             }
          };
     });
-
-
-// if the numbers don't match, change the div#message element's text to a random losing message from the array above
